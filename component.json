@@ -1,13 +1,13 @@
 {
   "name": "geolib",
-  "homepage": "http://github.com/manuelbieh/Geolib",
+  "homepage": "http://github.com/j33f/Geolib",
   "author": {
     "name": "Manuel Bieh",
     "url": "http://www.manuelbieh.com/"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/manuelbieh/geolib.git"
+    "url": "http://github.com/j33f/geolib.git"
   },
   "devDependencies": {
     "grunt": "~0.4",
@@ -32,7 +32,8 @@
   ],
   "files": [
     "dist/geolib.js",
-    "dist/geolib.elevation.js"
+    "dist/geolib.elevation.js",
+    "dist/geolib.isPointInsideRobust.js"
   ],
   "description": "Library to perform geo specific tasks",
   "keywords": [
@@ -47,6 +48,6 @@
   "scripts": {
     "test": "grunt travis --verbose"
   },
-  "version": "2.0.18",
+  "version": "2.0.19",
   "main": "dist/geolib.js"
 }
